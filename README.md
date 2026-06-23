@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository is a cleaned portfolio version of a university group project that combined drone simulation, reinforcement learning, and computer vision.
+This repository is a 'cleaned' portfolio version of a university group project that combined drone simulation, reinforcement learning, and computer vision.
 
 The system simulates a quadrotor in PyBullet, uses a Gymnasium-style environment for reinforcement learning, and integrates a YOLO object-detection pipeline to identify phone-like goal objects from a simulated drone camera.
 
@@ -12,7 +12,7 @@ The project is relevant to robotics, autonomous systems, simulation, computer vi
 
 This was a group project. My main contribution was the YOLO/perception side of the system and its integration into the simulation workflow.
 
-I contributed to:
+I contributed to specifically:
 
 - Generating a synthetic YOLO dataset from the PyBullet simulation.
 - Using PyBullet segmentation masks to automatically create YOLO-format bounding-box labels.
